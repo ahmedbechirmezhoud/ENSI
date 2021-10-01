@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ENSI</string>
+    <string name="start">start</string>
+    <string name="stop">stop</string>
+    <string name="send">send</string>
+    <string name="clear">clear</string>
+    <string name="textview">textview</string>
+    <string name="name">name</string>
+</resources>
