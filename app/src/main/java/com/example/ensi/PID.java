@@ -230,7 +230,7 @@ public class PID{
      * Configure setpoint for the PID calculations<br>
      * This represents the target for the PID system's, such as a
      * position, velocity, or angle. <br>
-     * @see MiniPID#getOutput(actual) <br>
+     * @see PID#getOutput(actual) <br>
      * @param setpoint
      */
     public void setSetpoint(double setpoint){
@@ -347,7 +347,7 @@ public class PID{
     /**
      * Calculate the output value for the current PID cycle.<br>
      * In one parameter mode, the last configured setpoint will be used.<br>
-     * @see MiniPID#setSetpoint()
+     * @see PID#setSetpoint()
      * @param actual The monitored value, typically as a sensor input.
      * @param setpoint The target value for the system
      * @return calculated output value for driving the system

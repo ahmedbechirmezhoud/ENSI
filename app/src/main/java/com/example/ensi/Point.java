@@ -2,31 +2,25 @@ package com.example.ensi;
 
 public class Point {
 
-    private int x, y;
+    private float x, y;
     public boolean isBreakpoint = false;
     private int delay = 1000;
     public boolean isObstacle = false;
-    private int width = 1;
-    private int height = 1;
 
     public void task(){
         return;
     };
 
-    public int getX() {
+    public float getX() {
         return x;
     }
 
-    public int getY() {
+    public float getY() {
         return y;
     }
 
-    public void setPosition(int x, int y) {
+    public void setPosition(float x, float y) {
         this.x = x;
-        this.y = y;
-    }
-
-    public void setY(int y) {
         this.y = y;
     }
 
@@ -34,9 +28,10 @@ public class Point {
         this.delay = delay;
     }
 
-    public Point(int x, int y, int delay, int width, int height){
+    public Point(int x, int y, int delay){
         this.x = x;
         this.y = y;
+        this.delay = delay;
     }
 
 
